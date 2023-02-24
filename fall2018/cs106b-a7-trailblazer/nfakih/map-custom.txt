@@ -1,0 +1,55 @@
+IMAGE
+map-custom.jpg
+570
+413
+
+FLAGS
+heuristic=false
+
+VERTICES
+Stables;218;289
+Pond;286;308
+School;295;290
+Cottage1;367;324
+Cottage2;379;274
+Cottage3;435;311
+Cottage4;460;286
+Cottage5;420;259
+Cottage6;480;252
+Cottage7;494;219
+Cottage8;454;217
+Restraunt;459;146
+Santa's Home;354;100
+Snow Home;295;131
+Bakery;206;141
+Workshop;102;188
+Stocking Shop;97;165
+Estate;140;85
+Pub;231;83
+North Pole;273;222
+
+EDGES
+Stables;School;1
+Stables;Pond;1
+School;Pond;1
+School;Cottage1;1
+Cottage1;Cottage2;1
+Cottage1;Cottage3;1
+Cottage3;Cottage4;1
+Cottage4;Cottage5;1
+Cottage4;Cottage6;1
+Cottage6;Cottage8;1
+Cottage8;Cottage7;1
+Cottage8;Restraunt;3
+Restraunt;Snow Home;4
+Snow Home;Santa's Home;2
+Santa's Home; Pub;2
+Pub;Estate;2
+Estate;Stocking Shop;2
+Stocking Shop;Workshop;1
+Estate;Bakery;3
+Bakery;Stocking Shop;2
+Bakery;North Pole;2
+North Pole;Cottage3;5
+North Pole;Cottage8;6
+Pond;North Pole;3

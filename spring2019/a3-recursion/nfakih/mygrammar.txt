@@ -1,0 +1,10 @@
+<s>::=<noun> <verb>
+<noun>::=<article> <adj> <n>|<article> <n>|<adj> <n>|<pn>
+<verb>::=<adverb> <v>|<v> <p> <pn>|<v> <article> <n>|<adverb> <v> <p> <pn>|<adverb> <v> <article> <n>|<v>
+<pn>::=Hunter|JJ|KJ|Yigha|Pablo|Andy|Anthony|Raja|William|Henry|Ammaar|Daniel|Amy|Lindsey
+<n>::=president|baby|kitty|turtle|professor|student|apple|shoe
+<article>::=a|the
+<p>::=with|under|above|below
+<v>::=ran|ate|yells|hates|hits|snores|swims
+<adj>::=pretty|crazy|hungry|lazy|mean|mad|sad|orange|green|huge|quiet
+<adverb>::=lazily|annoyingly|loudly|softly|agressively|passionately|seductively|sweetly|obnoxiously
